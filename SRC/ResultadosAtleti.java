@@ -51,7 +51,7 @@ public class ResultadosAtleti {
         // 1. Inicializa una variable suma a 0.
         // 2. Recorre el array con un for-each y suma getGolesMarcados().
         // 3. Devuelve suma / temporada.length (como double).
-        int suma = 0;
+        double suma = 0;
         for (Partido partido : temporada) {
             suma += partido.getGolesMarcados();
         }
